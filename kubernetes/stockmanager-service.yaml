@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: stockmanager
-          image: taniaduggal60/stockmanager:latest
+          image: asia-south1-docker.pkg.dev/mythical-plate-402518/gcp-docker-repo/stockmanager:latest
           ports:
             - containerPort: 8030
           livenessProbe:
